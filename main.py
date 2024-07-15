@@ -13,7 +13,7 @@ dp = Dispatcher()
 # Хэндлер на команду /start
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
-    await message.answer("Dokku work!")
+    await message.answer("Dokku work 2!")
 
 # Запуск процесса поллинга новых апдейтов
 async def main():
